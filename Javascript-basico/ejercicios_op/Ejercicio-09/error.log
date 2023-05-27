@@ -1,0 +1,14 @@
+{"level":"error","message":"esto es un mensaje de error","service":"user-service"}
+{"level":"error","message":"esto es un mensaje de error","service":"user-service"}
+{"level":"error","message":"esto es un mensaje de error","service":"user-service"}
+{"level":"error","message":"esto es un mensaje de error","service":"user-service"}
+{"level":"error","message":"esto es un mensaje de error","service":"user-service"}
+{"level":"error","message":"ReferenceError: showError is not defined","service":"user-service"}
+{"level":"error","message":"esto es un mensaje de error","service":"user-service"}
+{"level":"error","message":"ReferenceError: showError is not defined","service":"user-service"}
+{"level":"error","message":"ReferenceError: showError is not defined","service":"user-service"}
+{"level":"error","message":"ReferenceError: showError is not defined","service":"user-service"}
+{"level":"error","message":"Error: showError function","service":"user-service"}
+{"level":"error","message":"Error: ERROR!","service":"user-service"}
+{"level":"error","message":"esto es un mensaje de error","service":"user-service"}
+{"level":"error","message":"Error: ERROR!","service":"user-service"}

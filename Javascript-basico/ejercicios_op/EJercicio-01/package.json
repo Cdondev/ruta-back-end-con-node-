@@ -1,0 +1,16 @@
+{
+  "name": "hola_mundo",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto node de openbootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo",
+    "firt project"
+  ],
+  "author": "Cdondev",
+  "license": "ISC"
+}

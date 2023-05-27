@@ -1,0 +1,125 @@
+sistema de control de versiones 
+
+- sistemas locales - centraliasados y distribuidos 
+
+-los locales son los que hacemos en nuestro equipo, es decir crear carpetas y copiar los elementos alos cuales 
+querramos realizar versiones de copias
+
+- los centraliasados solventan el problema de tener todo en local, pero solo puedo trabajar con ellos cuando estoy concetado 
+a un servidor 
+
+- los distribuidos, trabajamos en local, hacemos confirmaciones en local pero podemos enviar a un servidor remoto
+varios desarrolladores pueden trabajar en local y hacer commit a una rama princicpal  
+sistema mas conocidos
+- gitHub
+- gitLab
+- bitbucket 
+
+
+
+segunda sesion
+
+instalacion de git-gitLab
+
+creacion de servidores por medio de docker para git ee y gitLab ee
+
+configuar mi repo
+
+con git config --system ---> configuraciones a nivel sistema
+
+git config --global ---> configuraciones de mi reporcitorios de manera global 
+configuar usuario o cambiar git config --global user.name "aqui va el nombre de usuario a cambiar"
+
+
+git config --local user.email "añadimos email dentro de la configuracion del repositorio sobre el que se esta traajando"
+
+creacion de commit
+
+creacion de repocitorios en github
+git init . --->   inicamos el repocitorio
+git add .  ---> agregamos todo los elementos qeu se encuentran en nuestro proyecto
+git commit -m "nombre de del commit"
+
+vamos a git y copiamos la ruta del repocitorio
+
+-git remote add origin https://github.com/user/nada.git
+-git branch -M main
+-git push -u origin main
+.... cargan los archivos y si no hemos iniciado sesion la iniciamos o autorizamos 
+
+------//------  //-----
+para actualizar el repocitorio o hacer commit 
+
+iniciamos teminal git....
+
+git add . // cargamos todo los archivos del proyecto 
+git commit -m "nombre del commit" 
+git branch -m main // indicamaos al archico principal
+git push -u origin main // subimos archivos 
+
+ para añadir determinados fucheros 
+ git add miFichero.txt ---> despues del add va el nombre de nuestro fichero 
+ git commit -am "texto de nuestro fichero" ---> commiteamos nuesro fichero 
+
+
+reset de commit
+
+existen dos manera de resetear nuetsros commits o volver hacia atras en ellos
+
+git reset --soft HEAD~1 ---> de esta manera indicamos que queremos regresar en nuestros commits y en el numero al final del head 
+indicamos cuantos queremos regresar
+
+la otra manera es con
+ 
+git reset --hard HEAD~2 --> al igual que soft pero este nos elimina el historias por completo, borra los commits realizados 
+
+
+comandos 
+git diff --> se utiliza para mostrar diferencias entre los directorios actules, historial de commit
+
+
+git blame miFichero.txt ---> conocer quien y que cambias a realizado 
+
+craer ramas en git 
+
+git branch nombre de la rama 
+git checkout nombre de la rama ---> ingresar a la rama creada 
+
+git checkout -b nobre rama 
+
+
+
+ramificaciones en git 
+añadir ramas a la principal ( main o master ) --> enviamos iformacion de otras ramas a la rama principal
+
+
+
+agrugar ramaficaiones a a rama  master(main)
+
+primero debemos estar en la rama a la cual quermeos agurgar la rama 
+
+para verificar en qu rama esatamos 
+ 
+ git branch ----> ramas
+
+ para ingresara la rama princicpal
+ git checkout master(o nombre de la rama)
+
+ para agregar la otra rama a la princicpal
+
+ git marge NOMBRE DE LA RAMA 
+
+
+git stash --> basicamente me guarda lo que este realizando y me permite ingresar a otro ambinete de trabajo limpio
+
+git stash apply ----> con este retorno a mi trabajo  
+
+con (vi) nombre de fichero puedo ingresara continuar con las modificaiones que estaba realizando 
+
+git stash list --> conocer los stash realizados
+git stash clear --> eliminar stash realizados 
+
+git cheery-pick ---> agregar commit especificos(el que elijamos ) a nustra rama master
+
+git cheery-pick (coidgo del commit )
+
