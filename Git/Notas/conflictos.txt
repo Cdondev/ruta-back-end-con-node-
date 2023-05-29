@@ -1,0 +1,9 @@
+
+solucion de confictos dentro de github
+
+editar fichero que esta presentado el conflicto y decidir que modificacion va a quedar
+ 
+git pull ---> para saber los cambios realizados 
+ git status ---> conocer el estado delos commit
+
+
