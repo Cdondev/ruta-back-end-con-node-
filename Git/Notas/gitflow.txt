@@ -1,0 +1,30 @@
+gitflow 
+
+inicializacion de gitflow con gitflow
+
+respondes preguntas para renombrar las ramas 
+
+reaalizar los cambios necesarios dentro de cada una de las ramas ----> develop ---> feature ----> hotfix: en cada proceso se realizan los cambios que requiera el proyecto
+se inicializa la rama y al finalizar se cierra o finaiza y automaticamente con gitflow se fuciona con la rama prncipal main(master) 
+
+
+git flow init ---> inicializacion de ramas en gitflow
+branch master ---> rama principal 
+branch develop ---> rama de desarollo ---> (git flow develop start)(git flow develop finish)
+branch feature/feature_name ---> rama de caracteristicas ----> cada rama se inicializa y se cierra o finaliza
+branch release release/name --->  ( git flow release start feature/feature_name)(git flow release finish feature/feature_name)
+branch hotfix/hotfix_name ---> rama de hotfix ----> (git flow hotfix start hotfix_name)(git flow hotfix finish hotfix_name )
+branch support ---> rama de soporte 
+
+
+
+para creacion a tavez de comandos se reaalizan con la creacion de ramas de manera manual 
+
+git checkout -b name_rama ----> nos crea una rama con el nombre que pongamos
+para movernos a la rama con -( git checkout nombre_de_rama) 
+luego se realiza un merge para fucionar los cambios a la rama que se desea --- la diferencia es que hay que reaalizar todo los cambios de manera manual 
+git checkout -b develop ----> nos crea una rama develop
+git checkout -b feature/feature_name ----> nos crea a una rama de caracteristicas
+git checkout -b release/name ----> nos crea a una rama de release
+git checkout -b hotfix/name ----> nos crea a una rama de hotfix
+git checkout -b support ----> nos crea a una rama de soporte
