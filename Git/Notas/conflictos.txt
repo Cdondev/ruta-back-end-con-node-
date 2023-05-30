@@ -3,7 +3,25 @@ solucion de confictos dentro de github
 
 editar fichero que esta presentado el conflicto y decidir que modificacion va a quedar
  
-git pull ---> para saber los cambios realizados 
+git pull ---> para saber los cambios realizados desde la linea de comando 
  git status ---> conocer el estado delos commit
+
+o directamente desde github se puede solucionar los conflictos, pullrequest 
+
+comandos para trabajar con el historial de los commit realizados
+
+git log --braches="*" ----> conocer el historial de todas las ramas
+ o dentro de las comillas especifico el nombre de la rama 
+
+ git log --oneline --> conocer historial mas resumido  y ademas conocemos los numeros de commit 
+
+ Revertir commit's
+
+git revert #numero del commit a revertir o sobreescribir 
+
+git clean -i ---> interfaz de opciones para eliminar y demas 
+
+    
+
 
 
