@@ -16,6 +16,9 @@ branch release release/name --->  ( git flow release start feature/feature_name)
 branch hotfix/hotfix_name ---> rama de hotfix ----> (git flow hotfix start hotfix_name)(git flow hotfix finish hotfix_name )
 branch support ---> rama de soporte 
 
+con gitflow al finalizar cada uno de los trabajos en las ramas automaticamente se fucionan con otra rama y se elimina esa rama a difreencia de realizarlo de manera manual que hay que ir eliminando cada una de las ramas creadas
+
+
 
 
 para creacion a tavez de comandos se reaalizan con la creacion de ramas de manera manual 
