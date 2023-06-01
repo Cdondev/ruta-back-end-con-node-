@@ -1,0 +1,13 @@
+Integración continua (CI): Es un proceso en el que los desarrolladores combinan su código en un repositorio compartido de manera 
+frecuente, lo que permite detectar problemas de integración temprano. 
+
+Implementación continua (CD): Es el proceso de automatización de la entrega de software a los entornos de producción o de usuario
+final de manera continua y confiable.
+
+Jenkins
+TeamCity
+Feature Flags
+Travis
+Son herramientas que se utilizan para facilitar la integración continua y la entrega continua en el desarrollo de software,
+automatizando tareas como la compilación, las pruebas y el despliegue, y permitiendo un mayor control y flexibilidad 
+en el proceso de desarrollo.
